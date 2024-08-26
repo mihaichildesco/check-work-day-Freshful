@@ -24,7 +24,7 @@ function getDayFromDate(date: Date): Day {
   return days[date.getDay()];
 }
 
-// Function to determine if it's a working day
+// Function to determine if working day
 function isWorkingDay(date: Date, shiftNumber: number): string {
   const shift1: Record<Day, boolean> = {
     [Day.Monday]: false,
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Update the result paragraph with the result
       resultElement.textContent = result;
     } else {
-      console.log("Please select a valid date.");
+      resultElement.textContent == "Please select a date and shift.";
     }
   });
 });
