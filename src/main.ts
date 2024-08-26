@@ -20,7 +20,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
             <option value="2">Tura 2 - Andrei C.</option>
         </select>
         
-        <button type="submit">Check</button>
+        <button type="submit">Verifica</button>
     </form>
 
     <p id="result"></p>
