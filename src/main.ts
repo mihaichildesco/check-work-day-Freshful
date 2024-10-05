@@ -16,8 +16,8 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
         
         <label for="shift-select">Selecteaza tura de lucru</label>
         <select id="shift-select" required>
-            <option value="1">Tura 1 - Daniel V.</option>
-            <option value="2">Tura 2 - Andrei C.</option>
+            <option value="1">Tura 1 - Radu A.</option>
+            <option value="2">Tura 2 - Mihai U.</option>
         </select>
         
         <button type="submit">Verifica</button>
